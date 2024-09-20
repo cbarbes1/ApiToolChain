@@ -1,0 +1,405 @@
+2024-09-19 11:47:57,199 - INFO - Initializing Web of Science API wrapper
+2024-09-19 11:47:57,199 - INFO - Generated query: PY=2020 AND DT=Article AND OG=Salisbury University
+2024-09-19 11:47:57,199 - INFO - Fetching results for year 2020...
+2024-09-19 11:47:57,199 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:47:57,855 - INFO - JSON parsed successfully!
+2024-09-19 11:47:57,856 - INFO - Fetching page 2 for year 2020
+2024-09-19 11:47:57,856 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:47:58,227 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 11:47:59,229 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:47:59,897 - INFO - JSON parsed successfully!
+2024-09-19 11:47:59,927 - INFO - Completed fetching results for year 2020. Total records: 96
+2024-09-19 11:47:59,927 - INFO - Generated query: PY=2021 AND DT=Article AND OG=Salisbury University
+2024-09-19 11:47:59,927 - INFO - Fetching results for year 2021...
+2024-09-19 11:47:59,927 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:48:00,573 - INFO - JSON parsed successfully!
+2024-09-19 11:48:00,575 - INFO - Fetching page 2 for year 2021
+2024-09-19 11:48:00,575 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:48:00,931 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 11:48:01,933 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:48:02,549 - INFO - JSON parsed successfully!
+2024-09-19 11:48:02,579 - INFO - Fetching page 3 for year 2021
+2024-09-19 11:48:02,579 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 3}
+2024-09-19 11:48:02,922 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 11:48:03,923 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 3}
+2024-09-19 11:48:04,399 - INFO - JSON parsed successfully!
+2024-09-19 11:48:04,428 - INFO - Completed fetching results for year 2021. Total records: 117
+2024-09-19 11:48:04,428 - INFO - Generated query: PY=2022 AND DT=Article AND OG=Salisbury University
+2024-09-19 11:48:04,428 - INFO - Fetching results for year 2022...
+2024-09-19 11:48:04,429 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2022 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:48:04,816 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 11:48:05,818 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2022 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:48:06,863 - INFO - JSON parsed successfully!
+2024-09-19 11:48:06,865 - INFO - Fetching page 2 for year 2022
+2024-09-19 11:48:06,865 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2022 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:48:07,498 - INFO - JSON parsed successfully!
+2024-09-19 11:48:07,520 - INFO - Fetching page 3 for year 2022
+2024-09-19 11:48:07,521 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2022 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 3}
+2024-09-19 11:48:08,087 - INFO - JSON parsed successfully!
+2024-09-19 11:48:08,108 - INFO - Completed fetching results for year 2022. Total records: 125
+2024-09-19 11:48:08,108 - INFO - Generated query: PY=2023 AND DT=Article AND OG=Salisbury University
+2024-09-19 11:48:08,108 - INFO - Fetching results for year 2023...
+2024-09-19 11:48:08,109 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2023 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:48:08,869 - INFO - JSON parsed successfully!
+2024-09-19 11:48:08,870 - INFO - Fetching page 2 for year 2023
+2024-09-19 11:48:08,870 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2023 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:48:09,212 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 11:48:10,213 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2023 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:48:10,851 - INFO - JSON parsed successfully!
+2024-09-19 11:48:10,877 - INFO - Fetching page 3 for year 2023
+2024-09-19 11:48:10,877 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2023 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 3}
+2024-09-19 11:48:11,233 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 11:48:12,234 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2023 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 3}
+2024-09-19 11:48:12,701 - INFO - JSON parsed successfully!
+2024-09-19 11:48:12,726 - INFO - Completed fetching results for year 2023. Total records: 110
+2024-09-19 11:48:12,726 - INFO - Generated query: PY=2024 AND DT=Article AND OG=Salisbury University
+2024-09-19 11:48:12,726 - INFO - Fetching results for year 2024...
+2024-09-19 11:48:12,726 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2024 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:48:13,074 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 11:48:14,076 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2024 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:48:15,019 - INFO - JSON parsed successfully!
+2024-09-19 11:48:15,020 - INFO - Fetching page 2 for year 2024
+2024-09-19 11:48:15,020 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2024 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:48:15,474 - INFO - JSON parsed successfully!
+2024-09-19 11:48:15,500 - INFO - Completed fetching results for year 2024. Total records: 61
+2024-09-19 11:48:15,500 - INFO - Completed Setting the summary for all year.
+2024-09-19 11:51:13,797 - INFO - Initializing Web of Science API wrapper
+2024-09-19 11:51:13,798 - INFO - Generated query: PY=2020 AND DT=Article AND OG=Salisbury University
+2024-09-19 11:51:13,798 - INFO - Fetching results for year 2020...
+2024-09-19 11:51:13,798 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:51:14,413 - INFO - JSON parsed successfully!
+2024-09-19 11:51:14,414 - INFO - Fetching page 2 for year 2020
+2024-09-19 11:51:14,414 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:51:15,273 - INFO - JSON parsed successfully!
+2024-09-19 11:51:15,297 - INFO - Completed fetching results for year 2020. Total records: 96
+2024-09-19 11:51:15,297 - INFO - Generated query: PY=2021 AND DT=Article AND OG=Salisbury University
+2024-09-19 11:51:15,298 - INFO - Fetching results for year 2021...
+2024-09-19 11:51:15,298 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:51:15,901 - INFO - JSON parsed successfully!
+2024-09-19 11:51:15,903 - INFO - Fetching page 2 for year 2021
+2024-09-19 11:51:15,903 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:51:16,258 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 11:51:17,260 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:51:18,109 - INFO - JSON parsed successfully!
+2024-09-19 11:51:18,142 - INFO - Fetching page 3 for year 2021
+2024-09-19 11:51:18,143 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 3}
+2024-09-19 11:51:18,625 - INFO - JSON parsed successfully!
+2024-09-19 11:51:18,652 - INFO - Completed fetching results for year 2021. Total records: 117
+2024-09-19 11:51:18,653 - INFO - Generated query: PY=2022 AND DT=Article AND OG=Salisbury University
+2024-09-19 11:51:18,653 - INFO - Fetching results for year 2022...
+2024-09-19 11:51:18,653 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2022 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:51:19,004 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 11:51:20,005 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2022 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:51:21,041 - INFO - JSON parsed successfully!
+2024-09-19 11:51:21,042 - INFO - Fetching page 2 for year 2022
+2024-09-19 11:51:21,042 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2022 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:51:21,987 - INFO - JSON parsed successfully!
+2024-09-19 11:51:22,014 - INFO - Fetching page 3 for year 2022
+2024-09-19 11:51:22,014 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2022 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 3}
+2024-09-19 11:51:22,502 - INFO - JSON parsed successfully!
+2024-09-19 11:51:22,538 - INFO - Completed fetching results for year 2022. Total records: 125
+2024-09-19 11:51:22,538 - INFO - Generated query: PY=2023 AND DT=Article AND OG=Salisbury University
+2024-09-19 11:51:22,538 - INFO - Fetching results for year 2023...
+2024-09-19 11:51:22,538 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2023 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:51:22,887 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 11:51:23,888 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2023 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:51:24,736 - INFO - JSON parsed successfully!
+2024-09-19 11:51:24,737 - INFO - Fetching page 2 for year 2023
+2024-09-19 11:51:24,737 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2023 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:51:25,365 - INFO - JSON parsed successfully!
+2024-09-19 11:51:25,390 - INFO - Fetching page 3 for year 2023
+2024-09-19 11:51:25,390 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2023 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 3}
+2024-09-19 11:51:25,850 - INFO - JSON parsed successfully!
+2024-09-19 11:51:25,873 - INFO - Completed fetching results for year 2023. Total records: 110
+2024-09-19 11:51:25,873 - INFO - Generated query: PY=2024 AND DT=Article AND OG=Salisbury University
+2024-09-19 11:51:25,873 - INFO - Fetching results for year 2024...
+2024-09-19 11:51:25,873 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2024 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:51:26,234 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 11:51:27,235 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2024 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:51:27,945 - INFO - JSON parsed successfully!
+2024-09-19 11:51:27,948 - INFO - Fetching page 2 for year 2024
+2024-09-19 11:51:27,948 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2024 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:51:28,463 - INFO - JSON parsed successfully!
+2024-09-19 11:51:28,487 - INFO - Completed fetching results for year 2024. Total records: 61
+2024-09-19 11:51:28,487 - INFO - Completed Setting the summary for all year.
+2024-09-19 11:53:11,800 - INFO - Initializing Web of Science API wrapper
+2024-09-19 11:53:11,801 - INFO - Generated query: PY=2020 AND DT=Article AND OG=Salisbury University
+2024-09-19 11:53:11,801 - INFO - Fetching results for year 2020...
+2024-09-19 11:53:11,801 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:53:12,478 - INFO - JSON parsed successfully!
+2024-09-19 11:53:12,480 - INFO - Fetching page 2 for year 2020
+2024-09-19 11:53:12,481 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:53:13,524 - INFO - JSON parsed successfully!
+2024-09-19 11:53:13,526 - INFO - Completed fetching results for year 2020. Total records: 96
+2024-09-19 11:53:13,526 - INFO - Generated query: PY=2021 AND DT=Article AND OG=Salisbury University
+2024-09-19 11:53:13,526 - INFO - Fetching results for year 2021...
+2024-09-19 11:53:13,526 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:53:14,321 - INFO - JSON parsed successfully!
+2024-09-19 11:53:14,322 - INFO - Fetching page 2 for year 2021
+2024-09-19 11:53:14,322 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:53:15,248 - INFO - JSON parsed successfully!
+2024-09-19 11:53:15,249 - INFO - Fetching page 3 for year 2021
+2024-09-19 11:53:15,249 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 3}
+2024-09-19 11:53:15,805 - INFO - JSON parsed successfully!
+2024-09-19 11:53:15,806 - INFO - Completed fetching results for year 2021. Total records: 117
+2024-09-19 11:53:15,806 - INFO - Generated query: PY=2022 AND DT=Article AND OG=Salisbury University
+2024-09-19 11:53:15,806 - INFO - Fetching results for year 2022...
+2024-09-19 11:53:15,806 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2022 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:53:16,162 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 11:53:17,164 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2022 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:53:18,140 - INFO - JSON parsed successfully!
+2024-09-19 11:53:18,141 - INFO - Fetching page 2 for year 2022
+2024-09-19 11:53:18,141 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2022 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:53:18,900 - INFO - JSON parsed successfully!
+2024-09-19 11:53:18,901 - INFO - Fetching page 3 for year 2022
+2024-09-19 11:53:18,902 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2022 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 3}
+2024-09-19 11:53:19,468 - INFO - JSON parsed successfully!
+2024-09-19 11:53:19,469 - INFO - Completed fetching results for year 2022. Total records: 125
+2024-09-19 11:53:19,469 - INFO - Generated query: PY=2023 AND DT=Article AND OG=Salisbury University
+2024-09-19 11:53:19,469 - INFO - Fetching results for year 2023...
+2024-09-19 11:53:19,469 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2023 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:53:19,832 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 11:53:20,834 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2023 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:53:21,681 - INFO - JSON parsed successfully!
+2024-09-19 11:53:21,683 - INFO - Fetching page 2 for year 2023
+2024-09-19 11:53:21,684 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2023 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:53:22,379 - INFO - JSON parsed successfully!
+2024-09-19 11:53:22,381 - INFO - Fetching page 3 for year 2023
+2024-09-19 11:53:22,381 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2023 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 3}
+2024-09-19 11:53:22,836 - INFO - JSON parsed successfully!
+2024-09-19 11:53:22,837 - INFO - Completed fetching results for year 2023. Total records: 110
+2024-09-19 11:53:22,837 - INFO - Generated query: PY=2024 AND DT=Article AND OG=Salisbury University
+2024-09-19 11:53:22,837 - INFO - Fetching results for year 2024...
+2024-09-19 11:53:22,837 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2024 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:53:23,184 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 11:53:24,185 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2024 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:53:24,928 - INFO - JSON parsed successfully!
+2024-09-19 11:53:24,930 - INFO - Fetching page 2 for year 2024
+2024-09-19 11:53:24,930 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2024 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:53:25,394 - INFO - JSON parsed successfully!
+2024-09-19 11:53:25,395 - INFO - Completed fetching results for year 2024. Total records: 61
+2024-09-19 11:53:25,395 - INFO - Completed Setting the summary for all year.
+2024-09-19 11:54:01,962 - INFO - Initializing Web of Science API wrapper
+2024-09-19 11:54:01,962 - INFO - Generated query: PY=2020 AND DT=Article AND OG=Salisbury University
+2024-09-19 11:54:01,962 - INFO - Fetching results for year 2020...
+2024-09-19 11:54:01,963 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:54:02,731 - INFO - JSON parsed successfully!
+2024-09-19 11:54:02,732 - INFO - Fetching page 2 for year 2020
+2024-09-19 11:54:02,732 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:54:03,092 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 11:54:04,093 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:54:04,856 - INFO - JSON parsed successfully!
+2024-09-19 11:54:04,857 - INFO - Completed fetching results for year 2020. Total records: 96
+2024-09-19 11:54:04,857 - INFO - Generated query: PY=2021 AND DT=Article AND OG=Salisbury University
+2024-09-19 11:54:04,857 - INFO - Fetching results for year 2021...
+2024-09-19 11:54:04,857 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:54:05,201 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 11:54:06,202 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:54:06,990 - INFO - JSON parsed successfully!
+2024-09-19 11:54:06,992 - INFO - Fetching page 2 for year 2021
+2024-09-19 11:54:06,992 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:54:07,831 - INFO - JSON parsed successfully!
+2024-09-19 11:54:07,833 - INFO - Fetching page 3 for year 2021
+2024-09-19 11:54:07,834 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 3}
+2024-09-19 11:54:08,188 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 11:54:09,189 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 3}
+2024-09-19 11:54:09,647 - INFO - JSON parsed successfully!
+2024-09-19 11:54:09,647 - INFO - Completed fetching results for year 2021. Total records: 117
+2024-09-19 11:54:09,647 - INFO - Generated query: PY=2022 AND DT=Article AND OG=Salisbury University
+2024-09-19 11:54:09,647 - INFO - Fetching results for year 2022...
+2024-09-19 11:54:09,647 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2022 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:54:09,996 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 11:54:10,998 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2022 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:54:11,946 - INFO - JSON parsed successfully!
+2024-09-19 11:54:11,948 - INFO - Fetching page 2 for year 2022
+2024-09-19 11:54:11,948 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2022 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:54:12,770 - INFO - JSON parsed successfully!
+2024-09-19 11:54:12,771 - INFO - Fetching page 3 for year 2022
+2024-09-19 11:54:12,771 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2022 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 3}
+2024-09-19 11:54:13,137 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 11:54:14,138 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2022 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 3}
+2024-09-19 11:54:14,698 - INFO - JSON parsed successfully!
+2024-09-19 11:54:14,699 - INFO - Completed fetching results for year 2022. Total records: 125
+2024-09-19 11:54:14,699 - INFO - Generated query: PY=2023 AND DT=Article AND OG=Salisbury University
+2024-09-19 11:54:14,699 - INFO - Fetching results for year 2023...
+2024-09-19 11:54:14,699 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2023 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:54:15,047 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 11:54:16,048 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2023 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:54:16,788 - INFO - JSON parsed successfully!
+2024-09-19 11:54:16,790 - INFO - Fetching page 2 for year 2023
+2024-09-19 11:54:16,790 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2023 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:54:17,136 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 11:54:18,138 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2023 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:54:19,084 - INFO - JSON parsed successfully!
+2024-09-19 11:54:19,086 - INFO - Fetching page 3 for year 2023
+2024-09-19 11:54:19,086 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2023 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 3}
+2024-09-19 11:54:19,539 - INFO - JSON parsed successfully!
+2024-09-19 11:54:19,540 - INFO - Completed fetching results for year 2023. Total records: 110
+2024-09-19 11:54:19,540 - INFO - Generated query: PY=2024 AND DT=Article AND OG=Salisbury University
+2024-09-19 11:54:19,540 - INFO - Fetching results for year 2024...
+2024-09-19 11:54:19,540 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2024 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:54:19,903 - WARNING - Rate limit exceeded. Retrying after 29144 seconds...
+2024-09-19 11:55:48,268 - INFO - Initializing Web of Science API wrapper
+2024-09-19 11:55:48,269 - INFO - Generated query: PY=2020 AND DT=Article AND OG=Salisbury University
+2024-09-19 11:55:48,269 - INFO - Fetching results for year 2020...
+2024-09-19 11:55:48,269 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:55:49,137 - INFO - JSON parsed successfully!
+2024-09-19 11:55:49,138 - INFO - Fetching page 2 for year 2020
+2024-09-19 11:55:49,138 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:55:49,949 - INFO - JSON parsed successfully!
+2024-09-19 11:55:49,951 - INFO - Completed fetching results for year 2020. Total records: 96
+2024-09-19 11:55:49,951 - INFO - Generated query: PY=2021 AND DT=Article AND OG=Salisbury University
+2024-09-19 11:55:49,951 - INFO - Fetching results for year 2021...
+2024-09-19 11:55:49,951 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:55:50,778 - INFO - JSON parsed successfully!
+2024-09-19 11:55:50,780 - INFO - Fetching page 2 for year 2021
+2024-09-19 11:55:50,780 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:55:51,123 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 11:55:52,124 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:55:53,134 - INFO - JSON parsed successfully!
+2024-09-19 11:55:53,134 - INFO - Fetching page 3 for year 2021
+2024-09-19 11:55:53,135 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 3}
+2024-09-19 11:55:53,605 - INFO - JSON parsed successfully!
+2024-09-19 11:55:53,606 - INFO - Completed fetching results for year 2021. Total records: 117
+2024-09-19 11:55:53,606 - INFO - Completed Setting the summary for all year.
+2024-09-19 11:59:05,191 - INFO - Initializing Web of Science API wrapper
+2024-09-19 11:59:05,192 - INFO - Generated query: PY=2020 AND DT=Article AND OG=Salisbury University
+2024-09-19 11:59:05,192 - INFO - Fetching results for year 2020...
+2024-09-19 11:59:05,192 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:59:06,081 - INFO - JSON parsed successfully!
+2024-09-19 11:59:06,082 - INFO - Fetching page 2 for year 2020
+2024-09-19 11:59:06,082 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:59:06,948 - INFO - JSON parsed successfully!
+2024-09-19 11:59:06,949 - INFO - Completed fetching results for year 2020. Total records: 96
+2024-09-19 11:59:06,949 - INFO - Generated query: PY=2021 AND DT=Article AND OG=Salisbury University
+2024-09-19 11:59:06,949 - INFO - Fetching results for year 2021...
+2024-09-19 11:59:06,949 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 11:59:07,740 - INFO - JSON parsed successfully!
+2024-09-19 11:59:07,741 - INFO - Fetching page 2 for year 2021
+2024-09-19 11:59:07,741 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:59:08,124 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 11:59:09,125 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 11:59:10,291 - INFO - JSON parsed successfully!
+2024-09-19 11:59:10,292 - INFO - Fetching page 3 for year 2021
+2024-09-19 11:59:10,292 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 3}
+2024-09-19 11:59:10,764 - INFO - JSON parsed successfully!
+2024-09-19 11:59:10,764 - INFO - Completed fetching results for year 2021. Total records: 117
+2024-09-19 11:59:10,764 - INFO - Completed Setting the summary for all year.
+2024-09-19 12:00:05,267 - INFO - Initializing Web of Science API wrapper
+2024-09-19 12:00:05,267 - INFO - Generated query: PY=2020 AND DT=Article AND OG=Salisbury University
+2024-09-19 12:00:05,267 - INFO - Fetching results for year 2020...
+2024-09-19 12:00:05,267 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 12:00:06,498 - INFO - JSON parsed successfully!
+2024-09-19 12:00:06,498 - INFO - Fetching page 2 for year 2020
+2024-09-19 12:00:06,498 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 12:00:07,394 - INFO - JSON parsed successfully!
+2024-09-19 12:00:07,395 - INFO - Completed fetching results for year 2020. Total records: 96
+2024-09-19 12:00:07,395 - INFO - Generated query: PY=2021 AND DT=Article AND OG=Salisbury University
+2024-09-19 12:00:07,395 - INFO - Fetching results for year 2021...
+2024-09-19 12:00:07,395 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 12:00:08,170 - INFO - JSON parsed successfully!
+2024-09-19 12:00:08,171 - INFO - Fetching page 2 for year 2021
+2024-09-19 12:00:08,171 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 12:00:09,199 - INFO - JSON parsed successfully!
+2024-09-19 12:00:09,200 - INFO - Fetching page 3 for year 2021
+2024-09-19 12:00:09,200 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 3}
+2024-09-19 12:00:09,679 - INFO - JSON parsed successfully!
+2024-09-19 12:00:09,679 - INFO - Completed fetching results for year 2021. Total records: 117
+2024-09-19 12:00:09,679 - INFO - Completed Setting the summary for all year.
+2024-09-19 12:00:37,921 - INFO - Initializing Web of Science API wrapper
+2024-09-19 12:00:37,921 - INFO - Generated query: PY=2020 AND DT=Article AND OG=Salisbury University
+2024-09-19 12:00:37,921 - INFO - Fetching results for year 2020...
+2024-09-19 12:00:37,921 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 12:00:38,768 - INFO - JSON parsed successfully!
+2024-09-19 12:00:38,769 - INFO - Fetching page 2 for year 2020
+2024-09-19 12:00:38,770 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 12:00:39,104 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 12:00:40,105 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 12:00:41,039 - INFO - JSON parsed successfully!
+2024-09-19 12:00:41,040 - INFO - Completed fetching results for year 2020. Total records: 96
+2024-09-19 12:00:41,040 - INFO - Generated query: PY=2021 AND DT=Article AND OG=Salisbury University
+2024-09-19 12:00:41,040 - INFO - Fetching results for year 2021...
+2024-09-19 12:00:41,040 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 12:00:41,799 - INFO - JSON parsed successfully!
+2024-09-19 12:00:41,799 - INFO - Fetching page 2 for year 2021
+2024-09-19 12:00:41,800 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 12:00:42,162 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 12:00:56,077 - INFO - Initializing Web of Science API wrapper
+2024-09-19 12:00:56,077 - INFO - Generated query: PY=2020 AND DT=Article AND OG=Salisbury University
+2024-09-19 12:00:56,077 - INFO - Fetching results for year 2020...
+2024-09-19 12:00:56,077 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 12:00:56,848 - INFO - JSON parsed successfully!
+2024-09-19 12:00:56,850 - INFO - Fetching page 2 for year 2020
+2024-09-19 12:00:56,850 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 12:00:57,202 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 12:00:58,203 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 12:00:58,973 - INFO - JSON parsed successfully!
+2024-09-19 12:00:58,973 - INFO - Completed fetching results for year 2020. Total records: 96
+2024-09-19 12:00:58,974 - INFO - Generated query: PY=2021 AND DT=Article AND OG=Salisbury University
+2024-09-19 12:00:58,974 - INFO - Fetching results for year 2021...
+2024-09-19 12:00:58,974 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 12:00:59,781 - INFO - JSON parsed successfully!
+2024-09-19 12:00:59,783 - INFO - Fetching page 2 for year 2021
+2024-09-19 12:00:59,796 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 12:01:00,182 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 12:01:01,183 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 12:01:02,102 - INFO - JSON parsed successfully!
+2024-09-19 12:01:02,103 - INFO - Fetching page 3 for year 2021
+2024-09-19 12:01:02,103 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 3}
+2024-09-19 12:01:02,640 - INFO - JSON parsed successfully!
+2024-09-19 12:01:02,641 - INFO - Completed fetching results for year 2021. Total records: 117
+2024-09-19 12:01:02,641 - INFO - Completed Setting the summary for all year.
+2024-09-19 12:04:04,280 - INFO - Initializing Web of Science API wrapper
+2024-09-19 12:04:04,280 - INFO - Generated query: PY=2020 AND DT=Article AND OG=Salisbury University
+2024-09-19 12:04:04,280 - INFO - Fetching results for year 2020...
+2024-09-19 12:04:04,280 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 12:04:05,056 - INFO - JSON parsed successfully!
+2024-09-19 12:04:05,057 - INFO - Fetching page 2 for year 2020
+2024-09-19 12:04:05,057 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 12:04:05,960 - INFO - JSON parsed successfully!
+2024-09-19 12:04:05,961 - INFO - Completed fetching results for year 2020. Total records: 96
+2024-09-19 12:04:05,961 - INFO - Generated query: PY=2021 AND DT=Article AND OG=Salisbury University
+2024-09-19 12:04:05,961 - INFO - Fetching results for year 2021...
+2024-09-19 12:04:05,961 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 12:04:06,792 - INFO - JSON parsed successfully!
+2024-09-19 12:04:06,794 - INFO - Fetching page 2 for year 2021
+2024-09-19 12:04:06,794 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 12:04:07,145 - WARNING - Rate limit exceeded. Retrying after 1 seconds...
+2024-09-19 12:04:08,147 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 12:04:09,013 - INFO - JSON parsed successfully!
+2024-09-19 12:04:09,014 - INFO - Fetching page 3 for year 2021
+2024-09-19 12:04:09,014 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 3}
+2024-09-19 12:04:09,483 - INFO - JSON parsed successfully!
+2024-09-19 12:04:09,484 - INFO - Completed fetching results for year 2021. Total records: 117
+2024-09-19 12:04:09,484 - INFO - Completed Setting the summary for all year.
+2024-09-19 12:04:19,816 - INFO - Initializing Web of Science API wrapper
+2024-09-19 12:04:19,816 - INFO - Generated query: PY=2020 AND DT=Article AND OG=Salisbury University
+2024-09-19 12:04:19,816 - INFO - Fetching results for year 2020...
+2024-09-19 12:04:19,816 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 12:04:20,638 - INFO - JSON parsed successfully!
+2024-09-19 12:04:20,640 - INFO - Fetching page 2 for year 2020
+2024-09-19 12:04:20,640 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 12:04:21,409 - INFO - JSON parsed successfully!
+2024-09-19 12:04:21,410 - INFO - Completed fetching results for year 2020. Total records: 96
+2024-09-19 12:04:21,410 - INFO - Generated query: PY=2021 AND DT=Article AND OG=Salisbury University
+2024-09-19 12:04:21,410 - INFO - Fetching results for year 2021...
+2024-09-19 12:04:21,411 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 12:04:22,171 - INFO - JSON parsed successfully!
+2024-09-19 12:04:22,172 - INFO - Fetching page 2 for year 2021
+2024-09-19 12:04:22,172 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 12:04:23,017 - INFO - JSON parsed successfully!
+2024-09-19 12:04:23,017 - INFO - Fetching page 3 for year 2021
+2024-09-19 12:04:23,018 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2021 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 3}
+2024-09-19 12:04:23,491 - INFO - JSON parsed successfully!
+2024-09-19 12:04:23,491 - INFO - Completed fetching results for year 2021. Total records: 117
+2024-09-19 12:04:23,491 - INFO - Completed Setting the summary for all year.
+2024-09-19 12:07:40,613 - INFO - Initializing Web of Science API wrapper
+2024-09-19 12:07:40,613 - INFO - Generated query: PY=2020 AND DT=Article AND OG=Salisbury University
+2024-09-19 12:07:40,613 - INFO - Fetching results for year 2020...
+2024-09-19 12:07:40,613 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 1}
+2024-09-19 12:07:41,482 - INFO - JSON parsed successfully!
+2024-09-19 12:07:41,483 - INFO - Fetching page 2 for year 2020
+2024-09-19 12:07:41,483 - INFO - Attempting request with params: {'db': 'WOS', 'q': 'PY=2020 AND DT=Article AND OG=Salisbury University', 'limit': 50, 'page': 2}
+2024-09-19 12:07:42,339 - INFO - JSON parsed successfully!
+2024-09-19 12:07:42,341 - INFO - Completed fetching results for year 2020. Total records: 96
+2024-09-19 12:07:42,341 - INFO - Completed Setting the summary for all year.
