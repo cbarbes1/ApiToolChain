@@ -24,7 +24,7 @@ def Crf_dict_cursor(base_url: str = 'https://api.crossref.org/works',
     """
     item_list: list = []
     processed_papers: int = 0
-    filtered_data: list = []
+    
     
     # create the query url
     req_url = base_url+'?'+f"query.affiliation={affiliation}&filter=from-pub-date:{from_date}&sort={sort_type}&order={sort_ord}&rows={n_element}&cursor=*"
@@ -36,10 +36,12 @@ def Crf_dict_cursor(base_url: str = 'https://api.crossref.org/works',
     total_docs = data['total-results']
     i = 1
     print("Processing API Pages.........")
+    print(f"From {from_date}\nTo {to_date}")
     
     # loop until specified end or processed papers reaches the total docs
     while(processed_papers != total_docs and i <= page_limit):
         i+=1
+        filtered_data: list = []
         # set the next query the next-cursor moves to the next page
         req_url = base_url+'?'+f"query.affiliation={affiliation}&filter=from-pub-date:{from_date},until-pub-date:{to_date}&sort={sort_type}&order={sort_ord}&rows={n_element}&cursor={cursor}"
         data = requests.get(req_url)
@@ -52,7 +54,7 @@ def Crf_dict_cursor(base_url: str = 'https://api.crossref.org/works',
         # if the published date is less than 2019 we have processed all papers in our range
         for item in data['items']:
             count = 0
-            if item['published']['date-parts'][0][0] >= 2019:
+            if item['published']['date-parts'][0][0] >= int(from_date.split('-')[0]):
                 # go through each author
                 for author in item.get('author', []):
                     # check if affiliation exists
