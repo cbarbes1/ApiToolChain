@@ -244,7 +244,7 @@ async def Crf_dict_cursor_async(
     logger.info(f"Processing API Pages from {from_date} to {to_date}")
     
     # loop until specified end or processed papers reaches the total docs
-    while(processed_papers != total_docs):
+    while processed_papers != total_docs:
         i+=1
         filtered_data: list = []
         # set the next query the next-cursor moves to the next page
@@ -347,6 +347,6 @@ def get_year(year):
 
 if __name__ == "__main__":
     result_list = asyncio.run(fetch_data_for_multiple_years())
-    with open("test.json", 'w') as file:
+    with open("fullData.json", 'w') as file:
         json.dump(result_list, fp=file,indent=4)
     
