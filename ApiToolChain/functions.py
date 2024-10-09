@@ -6,6 +6,7 @@ import logging
 
 import asyncio
 import aiohttp
+from tqdm.asyncio import tqdm
 
 
 # Configure logging
@@ -13,8 +14,7 @@ logging.basicConfig(
     level=logging.DEBUG,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler("app.log"),
-        logging.StreamHandler()
+        logging.FileHandler("app.log")
     ]
 )
 logger = logging.getLogger(__name__)
@@ -54,8 +54,8 @@ def Crf_dict(base_url: str = 'https://api.crossref.org/works',
 
 def Crf_dict_cursor(base_url: str = 'https://api.crossref.org/works', 
              affiliation: str = 'Salisbury University', 
-             from_date: str = '2018-01-01',
-             to_date: str = '2024-09-19',
+             from_date: str = '2017-01-01',
+             to_date: str = '2024-10-09',
              n_element: str = '1000', 
              sort_type: str = 'relevance',
              sort_ord: str = 'desc',
@@ -164,9 +164,9 @@ def Crf_dict_cursor(base_url: str = 'https://api.crossref.org/works',
 async def Crf_dict_cursor_async(
             session: aiohttp.ClientSession,
             base_url: str = 'https://api.crossref.org/works', 
-            affiliation: str = 'Salisbury University', 
+            affiliation: str = 'Salisbury%20University', 
             from_date: str = '2018-01-01',
-            to_date: str = '2024-09-19',
+            to_date: str = '2024-10-09',
             n_element: str = '1000', 
             sort_type: str = 'relevance',
             sort_ord: str = 'desc',
@@ -240,12 +240,12 @@ async def Crf_dict_cursor_async(
     
     # get the total results
     total_docs = data['total-results']
-    i = 1
+    i = 0
     logger.info(f"Processing API Pages from {from_date} to {to_date}")
     
     # loop until specified end or processed papers reaches the total docs
     while processed_papers != total_docs:
-        i+=1
+        
         filtered_data: list = []
         # set the next query the next-cursor moves to the next page
         req_url = base_url+'?'+f"query.affiliation={affiliation}&filter=from-pub-date:{from_date},until-pub-date:{to_date}&sort={sort_type}&order={sort_ord}&rows={n_element}&cursor={cursor}"
@@ -270,7 +270,7 @@ async def Crf_dict_cursor_async(
                         logging.fatal("Error: Receivee unexpected status {response.status} for {from_date}")
                         return None
             except aiohttp.ClientError as e:
-                logger.debug(f"Nework error for {from_date}: {e}")
+                logger.debug(f"Network error for {from_date}: {e}")
                 return None
             num_iter+=1
             await asyncio.sleep(1)
@@ -284,7 +284,8 @@ async def Crf_dict_cursor_async(
         # if the published date is less than 2019 we have processed all papers in our range
         for item in data['items']:
             count = 0
-            if item['published']['date-parts'][0][0] >= int(from_date.split('-')[0]):
+            #absolute_date = sum(item['published']['date-parts'][0])
+            if item['published']['date-parts'][0][0] >= int(from_date.split('-')[0]) and item['published']['date-parts'][0][0] <= int(to_date.split('-')[0]):
                 # go through each author
                 for author in item.get('author', []):
                     # check if affiliation exists
@@ -298,36 +299,47 @@ async def Crf_dict_cursor_async(
                 # when there is atleast 1 affiliation save the paper
                 if count != 0:
                     filtered_data.append(item)
-        if filtered_data == []:
-            print("No more papers to process")
-            break    
+
         # add the filtered items to the list
         item_list.extend(filtered_data)
         # shift the cursor to the next page
         cursor = data['next-cursor']
+
+        if filtered_data == []:
+            break;
+
         # space out the queries to avoid overloading the api
-        time.sleep(3)
+        await asyncio.sleep(3)
+        
+        
     logger.info("Processing Complete")
     # return the item list and the cursor so the process can be continued this function
-    return {"items": item_list,
-            "next-cursor": cursor
-        }
+    return (item_list, cursor)
 
 async def fetch_data_for_multiple_years():
-    years = [2018, 2019, 2020, 2021, 2022, 2023, 2024]
+    years = [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
     async with aiohttp.ClientSession() as session:
-        tasks = [Crf_dict_cursor_async(session, from_date=f"{year}-01-01", to_date=f"{year}-12-12") for year in years]
+        tasks = [Crf_dict_cursor_async(session, from_date=f"{year}-01-01", to_date=f"{year}-12-31") for year in years]
+
+        start_time = time.time()
 
         results = await asyncio.gather(*tasks)
 
-        print("All data fetched.")
-        return results
+        final_result = []
+        for result, _ in results:
+            final_result.extend(result)
+
+        end_time = time.time()
+        print(f"All data fetched. This took {end_time-start_time}")
+
+        
+        return final_result
 
 def get_year(year):
 
 
     with open(f"sub-essential-data-{year}.json", 'w') as file:
-        data = Crf_dict_cursor(from_date=f"{year}-01-01", to_date=f"{year}-12-12")['items']
+        data = Crf_dict_cursor(from_date=f"{year}-01-01", to_date=f"{year}-12-31")['items']
         data_list = []
         for item in data:
             data_list.append( {
@@ -347,6 +359,16 @@ def get_year(year):
 
 if __name__ == "__main__":
     result_list = asyncio.run(fetch_data_for_multiple_years())
+    print(f"Number of items{len(result_list)}")
     with open("fullData.json", 'w') as file:
         json.dump(result_list, fp=file,indent=4)
+
+    # data = Crf_dict_cursor()['items']
+
+    # print(len(data))
+
+    # with open("TestDataNonAsync.json", 'w') as f:
+    #     json.dump(data, fp=f, indent= 4)
+
+
     
